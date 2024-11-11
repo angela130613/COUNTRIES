@@ -1,0 +1,36 @@
+.card-country {
+    width: 10rem;
+    height: 12rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border: groove 4px #a2b0bc;
+    background-color: #2e506e;  
+    border-radius: 5px;
+    cursor: pointer;  
+  }
+  
+  .card-country:hover {
+    transform: scale(150%);  
+  }
+  
+  .card-country > img {
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+  }
+  
+  .card-country > h2 {
+    width: 100%;
+    height: 50%;
+    text-align: center;
+    color: #fff;
+    margin-top: 1.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .opacity-board {  
+    opacity: 0.2;
+    background-color: gray;
+  }

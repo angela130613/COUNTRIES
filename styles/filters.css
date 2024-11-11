@@ -1,0 +1,40 @@
+.frm-filters {
+    width: 100%;
+    height: 20%;  
+    color: #8342fa;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .frm-filters > fieldset {
+    width: 17rem;
+    padding: 0.5rem;  
+    margin-top: 0.2rem;
+    display: flex;
+    flex-direction: column;  
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  fieldset > input,
+  fieldset > select {
+    border-radius: 5px;
+    border: none;
+    padding: 0 0.5rem 0 0.5rem;
+    font-size: 1.2rem;
+  }
+  
+  .demographics {
+    width: 17rem;
+    height: 10rem;  
+    overflow: hidden;
+    border: double 2px #4242f29f;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #8342fa;
+    box-shadow: 0 0 10px #8342fa;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.8rem;
+  }

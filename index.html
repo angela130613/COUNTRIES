@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="assets/icon/colombia.webp" type="image/x-icon">
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="styles/filters.css">
+  <link rel="stylesheet" href="styles/countries.css">
+  <title>Countries</title>
+</head>
+<body>  
+  <!-- <div class="modal" id="modal">
+    <button id="btn-close-modal">X</button>
+    <img src="" alt="" srcset="">
+    <h2>No encontramos tu país</h2>
+  </div> -->
+  <div id="board" class="board">
+    <header><h1>Países</h1></header>
+    <main> 
+      <aside>
+        <form class="frm-filters">
+          <fieldset>
+            <label for="">Buscar</label>
+            <input id="input-filter" type="text" placeholder="Buscar por País,Capital">
+          </fieldset>
+          <fieldset>
+            <label for="">Ordenar por:</label>
+            <select name="" id="select-orderBy">              
+              <option value="A-Z">A-Z</option>
+              <option value="Z-A">Z-A</option>
+            </select>
+          </fieldset>
+        </form>
+        <section id="demographics" class="demographics">
+          <h2>Nombre del País</h2>
+          <h3>Capital</h3>
+          <h4>Población</h4>
+        </section>
+      </aside>
+      <section>        
+      </section>
+    </main>
+    <footer> 
+      <p>Elaborado por: <strong>Angela Yepes</strong></p>
+    </footer> 
+  </div>
+  <script type="module" src="scripts/app.js"></script>
+  <script type="module" src="scripts/countries.js"></script>
+</body>
+</html>

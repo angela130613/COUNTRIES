@@ -1,0 +1,92 @@
+:root {
+    --main-color: #1cffd9;  
+  }
+  
+  @font-face {
+    font-family: 'font-country';
+    src: url('../assets/fonts/Anton/Anton-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family:'font-country', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .board {
+    width: 95%;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #8342fa;
+    background-color:var(--main-color); 
+  }
+  
+  header {  
+    width: 100%;
+    height: 10%;
+    background: linear-gradient(45deg, #388eff,#79e4ff,#388eff);
+    border-radius: 10px 10px 0 0;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ab7eff;
+    font-size: 1.2rem;
+  }
+  
+  main {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  aside {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0.5rem;
+  }
+  
+  section {
+    width: 70%;
+    height: 100%;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;  
+    flex-wrap: wrap;
+    overflow-y: scroll;
+  
+  }
+  
+  footer {
+    width: 95%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 1.5rem;
+    border-radius: 0 0 10px 10px;
+    background: linear-gradient(45deg, #388eff,#79e4ff,#388eff);
+    color: #8342fa;
+  }
